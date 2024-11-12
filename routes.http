@@ -1,0 +1,29 @@
+POST http://localhost:3333/videos
+Content-Type: application/json
+
+{
+    "title": "video node",
+    "describe": "video pessimo",
+    "duration": 180
+}
+
+###
+
+GET http://localhost:3333/videos?search=node
+
+###
+
+PUT http://localhost:3333/videos/a2166885-01c0-4422-83cc-73c96cb8d56f
+Content-Type: application/json
+
+{
+    "title": "video 03",
+    "describe": "video pessimo",
+    "duration": 180
+}
+
+###
+
+DELETE http://localhost:3333/videos/159b8b71-e902-4ef5-bf25-a764ba2ece0c
+
+
